@@ -1,3 +1,9 @@
+/*
+--------------------------------------
+Configurações gerais
+--------------------------------------
+*/
+
 :root {
     --color-red: #E50914;
     --color-black: #221F1F;
@@ -15,7 +21,14 @@
 body {
     background-color: var(--color-black);
     font-family: 'Times New Roman', Times, serif;
+    color: var(--color-white);
 }
+
+/*
+--------------------------------------
+Cabeçalho e barra de navegação
+--------------------------------------
+*/
 
 header .container {
     display: flex;
@@ -38,4 +51,28 @@ header .container nav a {
 header .container nav a.selected, 
 header .container nav a:hover {
     color: var(--color-white);
+}
+
+/*
+--------------------------------------
+Filme/série em destaque
+--------------------------------------
+*/
+main .filme-destaque {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url('../img/filme-destaque.png');
+    height: 400px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main .filme-destaque .filme-destaque-descricao {
+    margin-bottom: 40px;
+}
+
+main .filme-destaque .filme-destaque-titulo {
+    font-size: 40px;
 }
