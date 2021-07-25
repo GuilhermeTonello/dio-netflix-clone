@@ -20,7 +20,7 @@ Configurações gerais
 
 body {
     background-color: var(--color-black);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--color-white);
 }
 
@@ -46,6 +46,7 @@ header .container h1.logo {
 
 header .container nav a {
     color: var(--color-grey);
+    margin-left: 0.4em;
 }
 
 header .container nav a.selected, 
@@ -60,7 +61,7 @@ Filme/série em destaque
 */
 main .filme-destaque {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url('../img/filme-destaque.png');
-    height: 400px;
+    height: 600px;
     background-size: cover;
     
     display: flex;
@@ -69,10 +70,34 @@ main .filme-destaque {
     align-items: flex-start;
 }
 
+main .filme-destaque .filme-destaque-titulo {
+    margin-top: 45%;
+    font-size: 40px;
+}
+
 main .filme-destaque .filme-destaque-descricao {
+    margin-top: 15px;
     margin-bottom: 40px;
 }
 
-main .filme-destaque .filme-destaque-titulo {
-    font-size: 40px;
+main .filme-destaque .filme-destaque-botao {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: var(--color-white);
+
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 12px;
+
+    transition: 0.2s ease all;
+}
+
+main .filme-destaque .filme-destaque-botao:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+main .filme-destaque .filme-destaque-botoes i {
+    margin-right: 0.3em;
 }
