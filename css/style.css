@@ -1,0 +1,41 @@
+:root {
+    --color-red: #E50914;
+    --color-black: #221F1F;
+    --color-grey: #AAA;
+    --color-white: #F5F5F1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--color-black);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+header .container h1.logo {
+    color: var(--color-red);
+    font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+header .container nav a {
+    color: var(--color-grey);
+}
+
+header .container nav a.selected, 
+header .container nav a:hover {
+    color: var(--color-white);
+}
