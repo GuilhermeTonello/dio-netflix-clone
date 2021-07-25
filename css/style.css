@@ -81,6 +81,7 @@ main .filme-destaque .filme-destaque-titulo {
 main .filme-destaque .filme-destaque-descricao {
     margin-top: 15px;
     margin-bottom: 40px;
+    max-width: 80%;
 }
 
 main .filme-destaque .filme-destaque-botao {
@@ -124,4 +125,30 @@ section .container img.box-filme {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+/*
+--------------------------------------
+Responsividade
+--------------------------------------
+*/
+@media screen and (max-width: 800px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .filme-destaque .filme-destaque-descricao {
+        margin-bottom: 20px;
+    }
+
+    main .filme-destaque .filme-destaque-botoes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .filme-destaque .filme-destaque-botao {
+        width: 70%;
+        margin-top: 1em;
+    }
 }
