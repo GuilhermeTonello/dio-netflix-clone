@@ -104,3 +104,24 @@ main .filme-destaque .filme-destaque-botao:hover {
 main .filme-destaque .filme-destaque-botoes i {
     margin-right: 0.3em;
 }
+
+/*
+--------------------------------------
+Filmes e séries
+--------------------------------------
+*/
+section {
+    margin: 5% 0;
+}
+
+section h4 {
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0.3em;
+}
+
+section .container img.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
