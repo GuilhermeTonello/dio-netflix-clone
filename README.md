@@ -13,7 +13,7 @@ Curso realizado a partir do Bootcamp HTML Web Developer da Digital Innovation On
 #### Página (Desktop):
 ![pagina desktop](https://github.com/GuilhermeTonello/dio-netflix-clone/blob/master/readme-imagens/pagina-desktop.png?raw=true)
 
-#### Página (Celular):
+#### Página (Tablet):
 ![pagina tablet](https://github.com/GuilhermeTonello/dio-netflix-clone/blob/master/readme-imagens/pagina-tablet.png?raw=true)
 
 #### Página (Celular):
