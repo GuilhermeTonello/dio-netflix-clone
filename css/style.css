@@ -24,6 +24,10 @@ body {
     color: var(--color-white);
 }
 
+.container {
+    margin: 0 15px;
+}
+
 /*
 --------------------------------------
 Cabeçalho e barra de navegação
@@ -35,7 +39,6 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 0 15px;
 }
 
 header .container h1.logo {
